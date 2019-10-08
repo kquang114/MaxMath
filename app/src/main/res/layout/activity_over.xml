@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bkg">
+
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/game_over"
+        android:textColor="@color/text"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:id="@+id/yourscore"
+        android:textColor="@color/text"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"/>
+
+    <Button
+    android:layout_width="@dimen/btn_width"
+    android:layout_height="@dimen/btn_height"
+    android:layout_marginTop="50dp"
+    android:text="Again"
+    android:background="@drawable/btn_red"
+    android:textSize="30dp"
+        android:id="@+id/btnPlayAgain"
+    android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="20dp"
+        android:text="@string/more"
+        android:background="@drawable/btn_green"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

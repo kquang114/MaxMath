@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Max Math</string>
+    <string name="action_settings">Settings</string>
+    <string name="game_name">Max Math\nGAME</string>
+    <string name="best_score" formatted="false">Best Score: %1$s</string>
+    <string name="play">Play</string>
+    <string name="more">More</string>
+
+    <string name="score" formatted="false">Score: %1$s</string>
+    <string name="best" formatted="false">Best: %1$s</string>
+
+    <string name="game_over">Game over</string>
+    <string name="your_score">Your score: %1$s</string>
+    <string name="tryagain">Try again?</string>
+    <string name="home">Home</string>
+
+</resources>
